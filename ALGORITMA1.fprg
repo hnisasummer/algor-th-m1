@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="rcrdq"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-19 01:07:20 &#214;S"/>
+        <attribute name="created" value="cmNyZHE7TUFVTUNIOzIwMjMtMTAtMTk7MTI6NTc6NDQgw5ZTOzI0MDg="/>
+        <attribute name="edited" value="cmNyZHE7TUFVTUNIOzIwMjMtMTAtMTk7MDE6MDc6MjAgw5ZTOzE7MjUwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, X, SONU&#199;" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="X"/>
+            <if expression="A=1">
+                <then>
+                    <assign variable="SONU&#199;" expression="X^2"/>
+                    <output expression="&quot;SONU&#199;:&quot; &amp; SONU&#199;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="A=2">
+                        <then>
+                            <assign variable="SONU&#199;" expression="4*X"/>
+                            <output expression="&quot;SONU&#199;:&quot;&amp;SONU&#199;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;YALNIZCA 1 VE 2 TUSUNU KULLANABILIRSINIZ&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
